@@ -12,7 +12,7 @@ with col2:
 st.divider()
 col1,col2,col3 = st.columns([1,0.5,1])
 with col2:
-	logo = Image.open("Logo.jpg")
+	logo = Image.open("logo.jpg")
 	st.image(logo)
 col1,col2,col3 = st.columns([2,4,1])
 with col2:
